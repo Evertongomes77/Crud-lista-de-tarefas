@@ -1,0 +1,82 @@
+import {styled} from 'styled-components';
+
+
+export const Container= styled.div`
+width: 100vw;
+display: flex;
+align-items: center;
+overflow: hidden;
+padding: 0px 20px;
+flex-direction: column;
+height: calc(100vh - 60px);
+background-color: #ffffff;
+`
+
+export const Totalpessoas= styled.div`
+width: 400px;
+height: 100px;
+background-color: #1A237E;
+display: flex;
+align-items: center;
+justify-content:center;
+flex-direction: column;
+margin-top: 30px;
+border-radius: 20px;
+p{
+    font-size: 25px;
+    color: white;
+    font-weight: 700;
+}
+h3{
+    font-size: 30px;
+    color: white;
+    font-weight: 900;
+}
+`
+
+export const Campofiltro= styled.div`
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 30px;
+img{
+    width: 30px;
+    position: relative;
+    left: 40px;
+}
+input{
+    width: 358px;
+    height: 45px;
+    padding-left: 40px;
+    border-radius: 10px;
+    border: 1px solid #767683;
+    outline: none;
+}
+`
+
+export const Listausers= styled.div`
+width: 100%;
+height: 500px;
+margin-top: 20px;
+background-color:#767683;
+display: flex;
+overflow: auto;
+padding: 20px;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+`
+
+
+export const Campousuario= styled.div`
+width: 350px;
+height: 100px;
+border-radius: 10px;
+background-color: #E0E0FF;
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin: 10px 0px;
+gap: 20px;
+padding: 0px 10px ;
+`
