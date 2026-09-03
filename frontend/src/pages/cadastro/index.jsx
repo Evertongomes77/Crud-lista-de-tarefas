@@ -14,14 +14,14 @@ function Cadastro() {
             alert('Preencha todos os campos!')
         }
         else{
-            const usuario= await api.post('/usuarios',{
+            await api.post('/usuarios',{
                 nome,
                 escola: escola.current.value
             });
-            console.log(usuario);
+
             alert('usuário cadastrado com sucesso!')
             escola.current.value='';
-            setnome('');
+            setnome('')
         };
     }
     
@@ -31,13 +31,13 @@ function Cadastro() {
             <Container>
                 <Form>
                     <Titles>
-                        <img src={user} alt="" />
+                        <img src={user} alt="imagem de usuário" />
                         <h2>Cadastro de presença</h2>
                     </Titles>
 
                     <Campoinputs>
                         <p>Nome da pessoa</p>
-                        <input type="text" placeholder="Digite o seu nome" onChange={((nome)=>setnome(nome.target.value))} />
+                        <input type="text" placeholder="Digite o seu nome" value={nome} onChange={((nome)=>setnome(nome.target.value))}/>
                     </Campoinputs>
 
                     <Camposelct>
