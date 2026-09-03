@@ -20,4 +20,7 @@ h2{
     font-weight: 600;
     color: white;
 }
+a{
+    text-decoration: none;
+}
 `

@@ -6,7 +6,6 @@ width: 100vw;
 display: flex;
 align-items: center;
 overflow: hidden;
-padding: 0px 20px;
 flex-direction: column;
 height: calc(100vh - 60px);
 background-color: #ffffff;
@@ -56,12 +55,12 @@ input{
 
 export const Listausers= styled.div`
 width: 100%;
-height: 500px;
-margin-top: 20px;
-background-color:#767683;
+margin: 20px;
+height: auto;
 display: flex;
-overflow: auto;
-padding: 20px;
+overflow-y: scroll;
+overflow-x: hidden;
+padding: 0px 20px;
 align-items: center;
 justify-content: center;
 flex-direction: column;
@@ -70,13 +69,11 @@ flex-direction: column;
 
 export const Campousuario= styled.div`
 width: 350px;
-height: 100px;
 border-radius: 10px;
-background-color: #E0E0FF;
+border: 1px solid #C6C5D4;
 display: flex;
 align-items: center;
 justify-content: space-between;
-margin: 10px 0px;
-gap: 20px;
-padding: 0px 10px ;
+margin: 20px 0px;
+padding: 10px 10px;
 `
