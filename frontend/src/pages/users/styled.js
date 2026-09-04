@@ -76,4 +76,20 @@ align-items: center;
 justify-content: space-between;
 margin: 20px 0px;
 padding: 10px 10px;
+img{
+    width: 24px;
+}
+`
+
+
+export const Campodados= styled.div`
+p{
+    color: #006B5C;
+    font-size: 16px;
+}
+h5{
+    font-size: 18px;
+    font-style:normal;
+    font-weight: 700;
+}
 `

@@ -8,7 +8,7 @@ function Header(){
         <Container>
             <Campoescrito>
                 <img src={chapeu} alt="chapeu de formatura" />
-                <Link to={'/'}><h2>Dev list</h2></Link>
+                <Link to={'/cadastro'}><h2>Dev list</h2></Link>
             </Campoescrito>
         </Container>
     )
