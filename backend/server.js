@@ -12,6 +12,18 @@ app.get('/usuarios', async (req,res)=>{
     res.status(200).json({total: usuarios.length,data:usuarios})
 });
 
+app.get('/usuarios/:nome', async (req,res)=>{
+    const usuarios=await prisma.users.findMany({
+        where:{
+            nome:{
+                contains: req.params.nome,
+                mode: 'insensitive'
+            }
+        }
+    });
+    res.status(200).json({"message": "usuário encontrado com sucesso!",usuarios});
+});
+
 
 app.post('/usuarios', async(req,res)=>{
     const {nome,escola}= req.body;

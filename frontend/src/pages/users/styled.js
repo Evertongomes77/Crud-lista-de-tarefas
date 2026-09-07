@@ -93,3 +93,7 @@ h5{
     font-weight: 700;
 }
 `
+
+export const Lixeiro= styled.img`
+cursor: pointer;
+`
