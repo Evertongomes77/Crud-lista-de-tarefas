@@ -23,13 +23,16 @@ margin-top: 30px;
 border-radius: 20px;
 p{
     font-size: 25px;
-    color: white;
+    color: #ffffff;
     font-weight: 700;
 }
 h3{
     font-size: 30px;
-    color: white;
+    color: #ffffff;
     font-weight: 900;
+}
+@media (max-width:431px){
+    width: 300px;
 }
 `
 
@@ -50,6 +53,9 @@ input{
     border-radius: 10px;
     border: 1px solid #767683;
     outline: none;
+    @media (max-width: 431px){
+        width: 258px;
+    }
 }
 `
 
@@ -76,6 +82,9 @@ align-items: center;
 justify-content: space-between;
 margin: 20px 0px;
 padding: 10px 10px;
+@media (max-width:431px){
+    width: 280px;
+}
 img{
     width: 24px;
 }

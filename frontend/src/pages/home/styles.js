@@ -24,46 +24,59 @@ img{
     width: 80px;
     margin-bottom: 10px;
 }
+h1{
+    color: #1A237E;
+}
+@media (max-width: 615px){
+    width: 330px;
+
+}
 `
 
 export const Imputcampo= styled.div`
 input{
     width: 300px;
+    background-color: #E6F6FF;
+    color: #6B7280;
     height: 35px;
     padding-left: 20px;
     border-radius: 10px;
     border: 1px solid #837f7f;
+    outline: none;
+    @media (max-width:615px){
+        width: 250px;
+    }
 }
 p{
-    font-size: 14px;
+    font-size: 16px;
     margin: 5px 0px;
-    color: #5fd92a;
+    color: #454652;
 }
 `
 
 
-export const Button= styled.button`
+export const Buttonentrar= styled.button`
 width: 200px;
 height: 40px;
-background-color: #0c62d9;
+background-color: #1A237E;
 color: white;
 border-radius: 10px;
-margin: 10px 0px;
+margin: 15px 0px;
 cursor: pointer;
 border: none;
 `
 
 export const Trocarsenha= styled.p`
-color: #0c62d9;
-font-size: 16px;
+color: #1A237E;
+font-size: 19px;
 margin: 5px 0px;
 cursor: pointer;
 `
 
 export const Criarconta= styled.p`
-color: #5fd92a;
-font-size: 16px;
-margin: 5px 0px;
+color: #00BFA5;
+font-size: 19px;
+margin: 10px 0px;
 cursor: pointer;
 `
 

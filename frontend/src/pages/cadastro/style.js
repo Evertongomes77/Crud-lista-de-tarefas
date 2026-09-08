@@ -20,6 +20,9 @@ flex-direction: column;
 border-radius: 20px;
 background-color: #FFFFFF;
 border: 1px solid #C6C5D4;
+@media (max-width: 702px){
+    width: 330px;
+}
 `
 
 export const Titles= styled.div`
@@ -75,6 +78,9 @@ border-radius: 10px;
 cursor: pointer;
 margin-top: 20px;
 border: none;
+@media (max-width: 702px){
+    width: 130px;
+}
 `
 
 export const Divbuttons=styled.div`

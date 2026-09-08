@@ -1,5 +1,5 @@
 import chapeu from '../../assets/chapeu.png';
-import { Button, Container,Criarconta,Form, Imputcampo, Separador, Trocarsenha } from './styles';
+import { Buttonentrar, Container,Criarconta,Form, Imputcampo, Separador, Trocarsenha } from './styles';
 
 function Home() {
 
@@ -8,7 +8,7 @@ function Home() {
         
             <Form>
                 <img src={chapeu} alt="chapeu de formatura" />
-                <p>Lista Escolar</p>
+                <h1>Lista Escolar</h1>
                     <Imputcampo>
                         <p>Nome do usuário</p>
                         <input type="text" placeholder="nome de usuário" />
@@ -18,7 +18,7 @@ function Home() {
                         <p>Senha</p>
                         <input type="password" placeholder="Sua senha" />
                     </Imputcampo>
-                    <Button>Entrar</Button>
+                    <Buttonentrar>Entrar</Buttonentrar>
 
                     <Trocarsenha>Esqueci minha senha</Trocarsenha>
                     <Separador>
