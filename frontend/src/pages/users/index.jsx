@@ -62,7 +62,7 @@ function Users() {
                                     <h5>{user.nome}</h5>
                                     <p>{user.escola}</p>
                                 </Campodados>
-                                <Lixeiro src={lixeiro} alt="icone de lixeiro" />
+                                 <Lixeiro src={lixeiro} onClick={()=>deletarusuario(user.id)} alt="icone de lixeiro" />
                             </Campousuario>
                     ))
 

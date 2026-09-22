@@ -68,7 +68,7 @@ overflow-y: scroll;
 overflow-x: hidden;
 padding: 0px 20px;
 align-items: center;
-justify-content: center;
+justify-content: flex-start;
 flex-direction: column;
 `
 
